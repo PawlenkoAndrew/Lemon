@@ -1,0 +1,262 @@
+.main-section{
+	background:url('images/Photo pie.png') center center no-repeat;	
+
+	.article-wrapper{
+		padding:45px 0px 45px 70px;
+	}
+	h2{
+		margin: 30px 0;
+		color: $title-color;
+		font-size: 24px;
+		font-family: $secondary-font;
+	}
+	span{
+		display: block;
+		font-size: 16px;
+		margin-bottom: 30px;
+		width: 360px;
+	}
+	button{
+		background-color: transparent;
+		border-radius:none;
+		border:1px solid $gray;
+		padding:10px 10px;
+			&:hover{
+				background-color: $title-color;
+				transition: 1.5s;
+			}
+	}
+}
+.recipe-section{
+	margin: 80px 0px;
+	background-color: #fff;
+	
+
+	.recipe-items{
+		justify-content: space-around;
+		padding: 40px 0px 70px 0px;
+		align-items: flex-start;
+
+	}
+	.recipe-item{
+		max-width: 310px;
+		font-size:18px;
+		flex-direction: column;
+		align-items: flex-start;
+		
+	}
+	h4{
+		font-weight:300;
+		margin: 10px 0;
+	}
+	a{
+		&:hover{
+			color:$title-color;
+		}
+	}
+	.recipe-item_time{
+		border-right: 2px solid gray;
+		padding-right: 5px;
+	}
+	.comment-field{
+		color:$gray-lighter;
+	}
+}
+.ingridients{
+	background-color: #fff;
+	justify-content: flex-start;
+	margin-bottom: 140px;
+	.foto-box{
+	
+			
+	}
+	.full-recipe{
+		max-width: 540px;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding-left: 40px;
+	}
+	h1{
+		font-size: 32px;
+		color:$green;
+		font-family: $secondary-font;
+		font-weight: 900;
+	}
+	.info-holder{
+		width: 100%;
+		justify-content: space-between;
+		margin: 30px 0px;
+	}
+	button{
+		background-color: transparent;
+		border-radius:none;
+		border:1px solid $gray;
+		padding:5px 10px;
+		text-transform: uppercase;
+			&:hover{
+				background-color: $title-color;
+				transition: 1.5s;
+			}
+	}
+	h4{
+		margin: 30px 0px;
+	}
+	.scroll-field{
+		overflow-y: scroll;
+		height: 270px;
+		
+	}
+		:-webkit-scrollbar-button {
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:5px;
+	height:0px
+	}
+
+	::-webkit-scrollbar-track {
+	background-color:#ecedee
+	}
+
+	::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background-color:#6dc0c8;
+	}
+
+	::-webkit-scrollbar-thumb:hover{
+	background-color:#56999f;
+	}
+
+	::-webkit-resizer{
+	background-image:url('');
+	background-repeat:no-repeat;
+	width:4px;
+	height:0px
+	}
+
+	::-webkit-scrollbar{
+	width: 4px;
+	}
+}
+.not-found-page{
+	background:url('images/Photo 404.png') center center no-repeat;
+	width: 520px;
+	height: 520px;
+	padding: 20px 40px 50px 40px;
+	
+	h1{
+		margin-bottom: 10px;
+	}
+	span{
+		line-height:1.4;
+		font-weight: bold;
+		color: $gray;
+	}
+	.title-holder{
+		
+		margin:160px auto;
+	    text-align: center;
+	    
+
+	}
+	form{
+		justify-content: center;
+	}
+	button{
+		background-color: transparent;
+		border-radius:none;
+		border:1px solid $gray;
+		padding:5px 10px;
+		width: 110px;
+		text-transform: uppercase;
+			&:hover{
+				background-color: $title-color;
+				transition: 1.5s;
+			}
+	}
+}
+.comment{
+	margin-bottom: 80px;
+	justify-content: space-between;
+
+	h2{
+		border-bottom: 2px solid $gray-lightest;
+		font-family: $main-font;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+}
+.review-field{
+	background-color: #fff;
+	width: 520px;
+	height: 520px;
+	padding: 20px 40px 50px 40px;
+
+	.article{
+		font-weight:400;
+		font-style: italic;
+		margin-left: 120px;
+		font-size: 14px;
+		h2{
+			border:none;
+			margin: 20px 0;
+		}
+		img{
+			display: block;
+			float: right;
+		}
+	}
+}
+.review-field__social-wrap{
+	padding: 20px 0;
+
+	.user-info{
+		margin-left: 20px;
+		line-height: 1.4;
+		text-align: left;
+		border-bottom: 2px solid $gray-lightest;
+		width: 100%;
+		padding: 10px 0px;
+		span{
+			align-items: center;
+			margin-top: 5px;
+
+		}
+	}
+	h3{
+		font-weight: 300;
+	}
+	i{
+		color:#aaaaaa;
+		display: inline-block;
+	}	
+	a{
+		display: inline-block;
+		margin-right:5px;
+	}
+	.icon-gplus{
+		&:hover{
+			color:red;
+		}
+	}
+	.icon-twitter{
+		&:hover{
+			color:blue;
+		}
+	}
+	.icon-facebook{
+		&:hover{
+			color:darkblue;
+			
+		}
+	}
+	.icon-pinterest-circled{
+		&:hover{
+			background-color:white;
+			color:red;
+			
+		}
+	}
+
+}
