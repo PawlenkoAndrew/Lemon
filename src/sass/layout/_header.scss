@@ -19,8 +19,12 @@ margin-bottom: 140px;
 .container{
 	max-width: 1120px;
 	margin: 0 auto;
-	height: 100%;
+	
 	}
+.row{
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
 
 body{
 	background-color:$body-color;
@@ -40,6 +44,11 @@ body{
 		align-items: center;
 		background-color:$sections-background;
 		justify-content: space-around;
+
+		@media(max-width:1024px ){
+			flex-direction: column;
+
+			}
 		
 		}
 
@@ -48,6 +57,10 @@ body{
 		position: relative;
 		justify-content: space-between;
 		max-width: 560px;
+			@media(max-width:768px ){
+				display: none;
+
+				}
 
 		li{
 			margin: 0 10px;
